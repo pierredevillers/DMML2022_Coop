@@ -35,8 +35,19 @@ As a first attempt, we decided to train and test the data on the classic classif
 ---
 
 ## Results
+For the raw data: 
 
-| Scores/Models  | Logistic Regression | KNN | Tree Classifier | Random Forest | BERT-TensorFlow
+| Scores/Models  | Logistic Regression | KNN | Tree Classifier | Random Forest |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Accuracy score | 0.47  | 0.35 | 0.41 | 0.41 |
+| Precision score  | 0.46 | 0.42 | 0.41 | 0.41 |
+| Recall score  | 0.47 | 0.35 | 0.41 | 0.41 |
+| F1 score  | 0.46 | 0.34 | 0.39 | 0.39 |
+
+
+For the cleaned data, we used several types of tokenizers (spacy, :
+
+| Scores/Models  | Logistic Regression | Ridge | KNN | Tree Classifier | Random Forest | BERT-TensorFlow
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Accuracy score | 0.47  | 0.35 | 0.41 | 0.41 | 0.54 |
 | Precision score  | 0.46 | 0.42 | 0.41 | 0.41 | 0.45 |
