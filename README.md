@@ -14,10 +14,11 @@ This project is consisting in the elaboration of a model in order to estimate th
 This repository is made to display all our documentation and resources for our prediction models as well as the different attempts of data cleaning or model implementation we have made. The structure is as the following :
 
 1. [The different CSV files we used as training and prediction data.](CSV_files)
-2. [The models we used]
-3. The methodology
-4. The different results
-5. Presentation video
+2. [The classic models we used](Classic_models)
+3. [The implementation of the model using BERT and TensorFlow](
+4. The methodology
+5. The different results
+6. Presentation video
 
 ---
 
