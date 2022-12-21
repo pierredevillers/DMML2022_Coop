@@ -22,6 +22,25 @@ This repository is made to display all our documentation and resources for our p
 
 ---
 
-#### The data
+### The data:
 
 We have been provided with two different datasets, one for the training (`training_data.csv`) and another unlabelled data (`unlabelled_data.csv`) in order to make predictions with our model. They were composed of sentences with their associated index as well as the difficulty level of the sentence in the `training_data.csv` file.  
+
+---
+
+### The models:
+
+As a first attempt, we decided to train and test the data on the classic classification models that we have seen in class. We trained a Logistic Regression, a KNN model, a Tree Classifier, as well as a Random Forest Classifier. We trained all these models first with the raw data without any treatment on it, and after we trained it with a tokenized data. Another model we implemented is a model based on BERT-like embeddings which makes contextual relations between words in order to classify them. 
+
+---
+
+## Results
+
+| Scores/Models  | Logistic Regression | KNN | Tree Classifier | Random Forest | BERT-TensorFlow
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Accuracy score | 0.47  | 0.35 | 0.41 | 0.41 | 0.54 |
+| Precision score  | 0.46 | 0.42 | 0.41 | 0.41 | 0.45 |
+| Recall score  | 0.47 | 0.35 | 0.41 | 0.41 | 0.31|
+| F1 score  | 0.46 | 0.34 | 0.39 | 0.39 | 0.36 |
+
+With these results we can see that our BERT-TensorFlow model is the best one in terms of accuracy. 
