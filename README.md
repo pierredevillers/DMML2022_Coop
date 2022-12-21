@@ -15,7 +15,7 @@ This repository is made to display all our documentation and resources for our p
 
 1. [The different CSV files we used as training and prediction data.](CSV_files)
 2. [The classic models we used](Classic_models)
-3. [The implementation of the model using BERT and TensorFlow](
+3. [The implementation of the model using BERT and TensorFlow](BERT_TensorFlow_model)
 4. The methodology
 5. The different results
 6. Presentation video
