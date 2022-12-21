@@ -47,11 +47,12 @@ For the raw data:
 
 For the cleaned data, we used several types of tokenizers (spacy, :
 
-| Scores/Models  | Logistic Regression | Ridge | KNN | Tree Classifier | Random Forest | BERT-TensorFlow
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Accuracy score | 0.47  | 0.35 | 0.41 | 0.41 | 0.54 |
-| Precision score  | 0.46 | 0.42 | 0.41 | 0.41 | 0.45 |
-| Recall score  | 0.47 | 0.35 | 0.41 | 0.41 | 0.31|
-| F1 score  | 0.46 | 0.34 | 0.39 | 0.39 | 0.36 |
+| Scores/Models  | Logistic Regression | Ridge | KNN | Tree Classifier | Random Forest | BERT-TensorFlow |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Accuracy score | 0.47  | 0.5 | 0.35 | 0.41 | 0.41 | 0.54 |
+| Precision score  | 0.46 | 0.5 | 0.42 | 0.41 | 0.41 | 0.45 |
+| Recall score  | 0.47 | 0.5 | 0.35 | 0.41 | 0.41 | 0.31 |
+| F1 score  | 0.46 | 0.5 | 0.34 | 0.39 | 0.39 | 0.36 |
+
 
 With these results we can see that our BERT-TensorFlow model is the best one in terms of accuracy. 
