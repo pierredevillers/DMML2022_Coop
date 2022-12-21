@@ -4,8 +4,8 @@
 
 ### Team members:
 
-* Vanja Hug
 * Pierre Devillers 
+* Vanja Hug
 ---
 
 ### Project Description:
