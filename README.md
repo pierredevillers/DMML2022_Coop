@@ -17,7 +17,7 @@ This repository is made to display all our documentation and resources for our p
 2. [The classic models we used](Classic_models)
 3. [The implementation of the model using BERT and TensorFlow](BERT_TensorFlow_model)
 5. [The different results](#results)
-6. Presentation video
+6. [Presentation video](#video)
 
 ---
 
@@ -67,5 +67,8 @@ For the BERT model, we compared it with our classic models tokenized with the sp
 
 With these results we can see that our BERT-TensorFlow model is the best one in terms of accuracy. We can also notice that in the Tree Classifier and Random Forest models, the spacy tokenizer even lower the accuracy score. 
 
+---
 
+## Explanatory video of the project <a name="video"></a>
 
+[![Video thumbnail](https://user-images.githubusercontent.com/114418892/209144009-a747826a-afa6-465a-ac9b-156f41103b0f.png)](https://youtu.be/TByAMm5ifow)
