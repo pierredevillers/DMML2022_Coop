@@ -45,14 +45,26 @@ For the raw data:
 | F1 score  | 0.46 | 0.34 | 0.39 | 0.39 |
 
 
-For the cleaned data, we used several types of tokenizers (spacy, :
+For the cleaned data, we used the spacy tokenizers:
 
 | Scores/Models  | Logistic Regression | Ridge | KNN | Tree Classifier | Random Forest | BERT-TensorFlow |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Accuracy score | 0.47  | 0.5 | 0.35 | 0.41 | 0.41 | 0.54 |
-| Precision score  | 0.46 | 0.5 | 0.42 | 0.41 | 0.41 | 0.45 |
-| Recall score  | 0.47 | 0.5 | 0.35 | 0.41 | 0.41 | 0.31 |
-| F1 score  | 0.46 | 0.5 | 0.34 | 0.39 | 0.39 | 0.36 |
+| Accuracy score | 0.477  | 0.465 | 0.384 | 0.331 | 0.405 | 0.54 |
+| Precision score  | 0.476 | 0.466 | 0.426 | 0.356 | 0.401 | 0.45 |
+| Recall score  | 0.478 | 0.465 | 0.384 | 0.333 | 0.406 | 0.31 |
+| F1 score  | 0.475 | 0.462 | 0.368 | 0.313 | 0.397 | 0.36 |
 
 
 With these results we can see that our BERT-TensorFlow model is the best one in terms of accuracy. 
+
+We took as well the best classic model above (Logistic Regression) and tried different tokenizer:
+
+| Scores/Models  | Spacy | NLTK | GTP2 | 
+| ------------- | ------------- | ------------- | ------------- |
+| Accuracy score | 0.477  | 0.493 | 0.477 | 
+| Precision score  | 0.476 | 0.489 | 0.476 |
+| Recall score  | 0.478 | 0.494 | 0.478 | 
+| F1 score  | 0.475 | 0.489 | 0.475 |
+
+In the classic Models the NLTK tokenizer was returning the highest cccurancy score.
+
