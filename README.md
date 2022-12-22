@@ -55,7 +55,7 @@ For the cleaned data, we used the spacy tokenizers:
 | F1 score  | 0.475 | 0.462 | 0.368 | 0.313 | 0.397 | 0.36 |
 
 
-With these results we can see that our BERT-TensorFlow model is the best one in terms of accuracy. 
+With these results we can see that our BERT-TensorFlow model is the best one in terms of accuracy. Where as in the Tree Classifier and Random Forest the spacy tokenizer even lover the accurancy score. 
 
 We took as well the best classic model above (Logistic Regression) and tried different tokenizer:
 
