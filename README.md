@@ -66,5 +66,5 @@ We took as well the best classic model above (Logistic Regression) and tried dif
 | Recall score  | 0.478 | 0.494 | 0.478 | 
 | F1 score  | 0.475 | 0.489 | 0.475 |
 
-In the classic Models the NLTK tokenizer was returning the highest cccurancy score.
+In the classic Models (Logistic Regression) the NLTK tokenizer was returning the highest accurancy score.
 
