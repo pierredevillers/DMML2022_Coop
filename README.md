@@ -72,3 +72,4 @@ With these results we can see that our BERT-TensorFlow model is the best one in 
 ## Explanatory video of the project <a name="video"></a>
 
 [![Video thumbnail](https://user-images.githubusercontent.com/114418892/209144009-a747826a-afa6-465a-ac9b-156f41103b0f.png)](https://youtu.be/TByAMm5ifow)
+
